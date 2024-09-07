@@ -1,0 +1,10 @@
+def medias(n1,n2,n3):
+    soma = n1 + n2 + n3
+    medias_total = soma / 3
+    return medias_total
+
+n1 = int(input("Digite o primeiro número: "))
+n2 = int(input("Digite o segundo número: "))
+n3 = int(input("Digite o terceiro número: "))
+
+print("A média é", medias(n1, n2, n3))
